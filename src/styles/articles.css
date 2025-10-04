@@ -1,0 +1,100 @@
+/* === CONTAINER CHUNG CHO DANH SÁCH BÀI VIẾT === */
+.articles-section {
+  width: 90%;
+  max-width: 1200px;
+  margin: 3rem auto;
+}
+
+.articles-title {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+  color: #0d3d3d;
+  margin-bottom: 2rem;
+}
+
+/* === LƯỚI CÁC BÀI VIẾT === */
+.articles-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  justify-content: center;
+}
+
+/* === CARD BÀI VIẾT === */
+.article-card {
+  background: #f9fafb;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+}
+
+.article-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.12);
+}
+
+.article-image {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.article-content {
+  padding: 1.25rem 1.5rem;
+}
+
+.article-tag {
+  display: inline-block;
+  background: #0d9488;
+  color: white;
+  font-size: 0.8rem;
+  font-weight: 500;
+  padding: 4px 10px;
+  border-radius: 9999px;
+  margin-bottom: 0.75rem;
+}
+
+.article-title {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: #0f3d3d;
+  margin-bottom: 0.5rem;
+  line-height: 1.4;
+}
+
+.article-meta {
+  font-size: 0.9rem;
+  color: #6b7280;
+  margin-bottom: 0.75rem;
+}
+
+.article-link {
+  font-weight: 600;
+  color: #0d9488;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+  color: #0b7c70;
+}
+
+/* === MÀN HÌNH LỚN === */
+@media (min-width: 1024px) {
+  .article-card {
+    height: 440px;
+  }
+
+  .article-image {
+    height: 240px;
+  }
+
+  .article-title {
+    font-size: 1.25rem;
+  }
+}
