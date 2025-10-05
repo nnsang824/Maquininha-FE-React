@@ -12,5 +12,18 @@
   -ms-overflow-style: none;  /* IE và Edge */
   scrollbar-width: none;     /* Firefox */
 }
+body {
+  background-color: #fafafa;
+  font-family: "Inter", sans-serif;
+}
+
+section {
+  margin-bottom: 50px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
 
