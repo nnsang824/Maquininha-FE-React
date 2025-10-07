@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Maquininha-FE-React/static/css/main.5d398e7e.css",
-    "main.js": "/Maquininha-FE-React/static/js/main.769cd6be.js",
+    "main.css": "/Maquininha-FE-React/static/css/main.2cee8c70.css",
+    "main.js": "/Maquininha-FE-React/static/js/main.f2fa4257.js",
     "static/js/453.f65b3e8e.chunk.js": "/Maquininha-FE-React/static/js/453.f65b3e8e.chunk.js",
     "static/media/slick.svg": "/Maquininha-FE-React/static/media/slick.2630a3e3eab21c607e21.svg",
     "static/media/slick.eot": "/Maquininha-FE-React/static/media/slick.a4e97f5a2a64f0ab1323.eot",
     "static/media/slick.ttf": "/Maquininha-FE-React/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/Maquininha-FE-React/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/Maquininha-FE-React/index.html",
-    "main.5d398e7e.css.map": "/Maquininha-FE-React/static/css/main.5d398e7e.css.map",
-    "main.769cd6be.js.map": "/Maquininha-FE-React/static/js/main.769cd6be.js.map",
+    "main.2cee8c70.css.map": "/Maquininha-FE-React/static/css/main.2cee8c70.css.map",
+    "main.f2fa4257.js.map": "/Maquininha-FE-React/static/js/main.f2fa4257.js.map",
     "453.f65b3e8e.chunk.js.map": "/Maquininha-FE-React/static/js/453.f65b3e8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5d398e7e.css",
-    "static/js/main.769cd6be.js"
+    "static/css/main.2cee8c70.css",
+    "static/js/main.f2fa4257.js"
   ]
 }
