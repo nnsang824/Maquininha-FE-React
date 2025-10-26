@@ -129,4 +129,29 @@
   .mainmenu-title {
     font-size: 1.6rem;
   }
+  /* Pagination */
+.pagination {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.page-btn {
+  background: white;
+  border: 1px solid #0f766e;
+  color: #0f766e;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.2s ease;
+}
+
+.page-btn.active,
+.page-btn:hover {
+  background: #0f766e;
+  color: white;
+}
+
 }

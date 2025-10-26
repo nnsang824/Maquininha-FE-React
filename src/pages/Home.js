@@ -1,5 +1,5 @@
 import React from "react";
-import Hero from "../components/Hero";
+//import Hero from "../components/Hero";
 import MainMenu from "../components/MainMenu";
 
 export default function Home() {
@@ -11,7 +11,7 @@ export default function Home() {
 
   return (
     <div>
-      <Hero />
+      
       <MainMenu />
 
       <div className="container mx-auto px-4 py-10">
