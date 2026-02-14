@@ -19,7 +19,10 @@
     "swiper": "^12.0.2",
     "web-vitals": "^2.1.4"
   },
+  "homepage": "https://nnsang824.github.io/Maquininha-FE-React",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -46,7 +49,9 @@
   "devDependencies": {
     "@tailwindcss/postcss": "^4.1.13",
     "autoprefixer": "^10.4.21",
+    "gh-pages": "^6.3.0",
     "postcss": "^8.5.6",
     "tailwindcss": "^3.4.17"
   }
+  
 }
